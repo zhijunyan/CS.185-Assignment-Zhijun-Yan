@@ -1,0 +1,20 @@
+body {
+	background-color: lightblue;
+  }
+
+
+.header{
+	padding: 60px;
+	font-size: 30px;
+	text-align: center;
+	background: #105F6F;
+	color: white;
+	
+}
+
+.main_body {
+	padding:20px;
+/*	display: flex;
+*/
+}
+
