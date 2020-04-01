@@ -14,7 +14,12 @@ body {
 
 .main_body {
 	padding:20px;
-/*	display: flex;
-*/
+	display: flex;
+
+}
+
+.break {
+  flex-basis: 100%;
+  width: 0;
 }
 
