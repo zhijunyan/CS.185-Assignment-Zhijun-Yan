@@ -12,9 +12,69 @@ body {
 	
 }
 
+.container{
+
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #334;
+}
+
+li {
+  display: inline;
+  float: left;
+  border-right:0.5px solid darkgrey;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: grey;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+
+
+
+
+
+
+
 .main_body {
 	padding:20px;
 /*	display: flex;
 */
 }
+
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
 
