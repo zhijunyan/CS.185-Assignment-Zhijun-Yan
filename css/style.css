@@ -12,11 +12,11 @@ body {
 	
 }
 
-.container{
+/*.container{
 
-}
+}*/
 
-
+/*this is navi bar********************************/
 ul {
   list-style-type: none;
   margin: 0;
@@ -40,12 +40,12 @@ li a {
   text-decoration: none;
 }
 
-li a:hover:not(.active) {
+li a:hover:not(.highlight) {
   background-color: grey;
 }
 
-.active {
-  background-color: #4CAF50;
+.highlight {
+  background-color: grey;
 }
 
 
@@ -53,7 +53,7 @@ li a:hover:not(.active) {
 
 
 
-
+/*for main body which image on the left bs************************/
 
 .main_body {
 	padding:20px;
@@ -74,7 +74,42 @@ li a:hover:not(.active) {
   clear: both;
   display: table;
 }
-</style>
-</head>
-<body>
+
+
+/*deal with photo.............................................*/
+
+.gallary {
+  /*justify-content: center;
+  align-content: center;*/
+  
+  margin: 80px;
+}
+
+.gallary img {
+  
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
