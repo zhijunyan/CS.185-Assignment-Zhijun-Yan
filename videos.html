@@ -3,7 +3,11 @@
 <html>
 
 	<head>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/video.css">
+		<script defer src="js/video.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="css/to_top.css">
+		<script defer src="js/to_top.js"></script>
 		<title>Zhijun Yan</title>
 	</head>
 
@@ -25,7 +29,7 @@
 		<ul>
 				<li><a href= "185Yan.html">Home</a></li>
 				<li><a href= "images.html">Images</a></li>
-				<li><a href= "videos.html">Videos</a></li>
+				<li><a class="highlight" href= "videos.html">Videos</a></li>
 				<li><a href= "projects.html">Projects</a></li>
 				<li><a href= "about.html">About</a></li>
 		</ul>
@@ -38,21 +42,41 @@
 
 	<p>
 		<h2>Landscapes</h2>
+
+
+		<div class= "vid">
 		
-		<video width="320" height="240" controls>
-  			<source src="video/vid1.mp4" type="video/mp4">
-  			Your browser does not support HTML5 video.
-		</video>
+			<video width="320" height="240" controls>
+  				<source src="video/vid1.mp4" type="video/mp4">
+  				Your browser does not support HTML5 video.
+			</video>
 
-		<video width="320" height="240" controls>	
-  			<source src="video/vid2.mp4" type="video/mp4">
-  			Your browser does not support HTML5 video.
-		</video>
+			<video width="320" height="240" controls>	
+  				<source src="video/vid2.mp4" type="video/mp4">
+  				Your browser does not support HTML5 video.
+			</video>
 
-		<video width="320" height="240" controls>	
-  			<source src="video/vid3.mp4" type="video/mp4">
-  			Your browser does not support HTML5 video.
-		</video>
+			<video width="320" height="240" controls>	
+  				<source src="video/vid3.mp4" type="video/mp4">
+  				Your browser does not support HTML5 video.
+			</video>
+
+			<video width="320" height="240" controls>	
+  				<source src="video/vid4.mp4" type="video/mp4">
+  				Your browser does not support HTML5 video.
+			</video>
+
+			<video width="320" height="240" controls>	
+  				<source src="video/vid6.mp4" type="video/mp4">
+  				Your browser does not support HTML5 video.
+			</video>
+
+			<video width="320" height="240" controls>	
+  				<source src="video/vid5.mp4" type="video/mp4">
+  				Your browser does not support HTML5 video.
+			</video>
+
+		</div>
 
 		<h5>Video from Dou Yin, modified by Zhijun (Kenneth) Yan. <br> </h5>
 
@@ -60,6 +84,8 @@
 	</p>	
 			
 	</div>
+
+	<button onclick="topFunction()" id="top_but" title="Go to top">Back to top</button>
 
 	</body>
 

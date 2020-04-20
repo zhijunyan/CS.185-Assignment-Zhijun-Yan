@@ -1,0 +1,74 @@
+body {
+	background-color: lightblue;
+  }
+
+
+.header{
+	padding: 60px;
+	font-size: 30px;
+	text-align: center;
+	background: #105F6F;
+	color: white;
+	
+}
+
+.container{
+
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #334;
+}
+
+li {
+  display: inline;
+  float: left;
+  border-right:0.5px solid darkgrey;
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.highlight) {
+  background-color: grey;
+}
+
+.highlight {
+  background-color: grey;
+}
+
+
+
+
+
+
+
+.vid {
+  justify-content: center;
+  align-content: center;
+  margin: 120px;
+}
+
+.vid video{
+  width: 32%;
+  height: auto;
+}
+
+.vid video:hover{
+  transform: scale(1.1);
+  filter: brightness(1.3);
+}
+
+
+

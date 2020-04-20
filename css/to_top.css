@@ -1,0 +1,20 @@
+
+#top_but{
+  display: none; 
+  cursor: pointer;
+  outline: none; 
+  background-color: white; 
+  color: black; 
+  position: fixed; 
+  bottom: 20px; 
+  right: 60px; 
+  z-index: 99; 
+  padding: 15px; 
+  border-radius: 90px; 
+  font-size: 15px; 
+  
+}
+
+#top_but:hover{
+    background-color: darkgray; /* Add a dark-grey background on hover */
+}
